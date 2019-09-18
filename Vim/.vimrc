@@ -54,7 +54,7 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
 "set t_Co=256
-"set t_ut=""
+set t_ut=""
 "set term=screen-256color
 "set term=xterm-256color
 "let g:solarized_termcolors=256
