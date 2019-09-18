@@ -152,7 +152,7 @@ autocmd FileType java nnoremap <F8> :JDBStepOver<CR>
 
 " Java Tool Options {
 function! SetJavaToolOptions() 
-    let $JAVA_TOOL_OPTIONS = '-javaagent:/home/devynmapes/LanguageServers/lombok.jar -Xbootclasspath/p:/home/devynmapes/LanguageServers/lombok.jar'
+    let $JAVA_TOOL_OPTIONS = '-javaagent:'.$HOME.'/Work/lombok.jar -Xbootclasspath/p:'.$HOME.'/Work/lombok.jar'
 endfunction
 
 function! UnSetJavaToolOptions()
